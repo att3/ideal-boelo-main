@@ -1,0 +1,149 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+.appContainer {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f1f1f1;
+  max-width: 976px;
+}
+
+.header {
+  padding: 32px;
+  background-color: #adb5bd;
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  color: white
+}
+
+.headerText {
+  display:flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.headerLogo {
+  margin-right: 20px;
+}
+
+.pageTitle {
+  color: #7f7f7f;
+  font-weight: 600;
+}
+
+.mainContent {
+  padding:32px;
+  width: 912px;
+}
+
+.addUserContainer {
+  margin-top: 32px;
+  background-color: #ffffff;
+  padding: 16px;
+}
+
+.row {
+  display:flex;
+  gap: 16px;
+}
+
+button:hover {
+  background-color: #d7d7d7;
+  cursor: pointer;
+}
+button {
+  border:none;
+  height: 40px;
+  color: #888888;
+  background-color: #ededed;
+  min-width: 100px;
+  font-weight:500;
+  font-size:16px;
+}
+
+input {
+  background-color: #fafafa;
+  color: #9c9c9c;
+  border: 1px solid #efefef;;
+  height: 36px;
+  padding-left: 12px;
+  font-size:16px;
+}
+
+.save {
+  background-color: #07f;
+  color: white;
+}
+.cancel {
+  color:#07f;
+}
+
+.basicButton {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.userTable {
+  margin-top: 12px;
+  width:100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.sortRow th svg {
+  margin-left:10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.userTableContainer { 
+  background-color: #ffffff;
+}
+
+.userTable td, .userTable th {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.userTable td {
+  border-top: 1px solid hsl(0deg 0% 95%);
+  height: 72px;
+  color: #505050;
+  font-size:16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.userTable th:hover {
+  color: black;
+  cursor: pointer;
+}
+.userTable th {
+  height: 48px;
+  color: #757575;
+  font-size:14px;
+  line-height: 16px;
+  font-weight: 500;
+  text-align: start;
+}
+.userTable .iconTd {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.editIcon {
+  cursor: pointer;
+}
+.invalidInput {
+  color:red;
+  border-bottom-color: red;
+}
+
+.formFieldDiv > div {
+  color:red;
+  font-size:12px;
+}
