@@ -8,7 +8,7 @@ const phoneRegExp = /^[0-9]{8,11}\w+/
 const AddNewUserSchema = Yup.object().shape({
   name: Yup.string()
     .min(2, 'Name is too short!')
-    .max(50, 'Name is too long!')
+    .max(25, 'Name is too long!')
     .required('Name is required')
     .matches(/^[aA-öÖ\s]+$/, "Only alphabets are allowed"),
   email: Yup.string().email('Invalid email').required("Email is required"),
